@@ -1,2 +1,2 @@
-# jogo-de-carro-enduro-runner
-A proposta deste trabalho da disciplina de Tecnologias Web é criar um jogo de corrida que é uma releitura do tradicional jogo de Atari chamado Enduro.
+# race-game-js
+Trabalho da disciplina de Tecnologias Web que consiste em criar um jogo de corrida baseado no tradicional jogo de Atari chamado Enduro.
