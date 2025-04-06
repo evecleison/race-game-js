@@ -1,6 +1,6 @@
 # racing-game-js 🏁🚗
 
-Este projeto é um jogo de corrida desenvolvido como trabalho da disciplina de Tecnologias Web. Inspirado no clássico Enduro do Atari, o jogo foi criado utilizando apenas HTML, CSS e JavaScript, sem o uso de Canvas.
+Este projeto é um jogo de corrida desenvolvido como trabalho da disciplina de Tecnologias Web I. Inspirado no clássico Enduro do Atari, o jogo foi criado utilizando apenas HTML, CSS e JavaScript, sem o uso de Canvas.
 
 ## 🎮 Sobre o jogo
 
@@ -10,7 +10,7 @@ O jogador controla um carro em uma corrida infinita, devendo ultrapassar advers�
 
 - HTML5
 - CSS3
-- JavaScript (puro, sem bibliotecas)
+- JavaScript
 
 ## 🚀 Como instalar e executar localmente
 
@@ -18,7 +18,7 @@ O jogador controla um carro em uma corrida infinita, devendo ultrapassar advers�
 
     Use o Git para clonar este repositório em sua máquina local.
     ```shell
-    git clone https://github.com/evecleison/Sistema_solar.git
+    git clone https://github.com/evecleison/racing-game-js.git
     ```
 
 2. **Localize o arquivo index.html e acesse pasta do seu projeto**
