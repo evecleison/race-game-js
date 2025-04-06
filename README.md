@@ -1,12 +1,12 @@
 # racing-game-js 🏁🚗
 
-Este projeto é um jogo de corrida desenvolvido como trabalho da disciplina de **Tecnologias Web**. Inspirado no clássico *Enduro* do Atari, o jogo foi criado utilizando apenas **HTML**, **CSS** e **JavaScript**, **sem o uso de Canvas**.
+Este projeto é um jogo de corrida desenvolvido como trabalho da disciplina de Tecnologias Web. Inspirado no clássico Enduro do Atari, o jogo foi criado utilizando apenas HTML, CSS e JavaScript, sem o uso de Canvas.
 
 ## 🎮 Sobre o jogo
 
 O jogador controla um carro em uma corrida infinita, devendo ultrapassar adversários, desviar de barreiras, coletar nitros (opcional) e abastecer nos postos de combustível ao longo do percurso. O objetivo é alcançar a maior pontuação possível antes que acabe o combustível ou ocorra uma colisão.
 
-## 🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas 
 
 - HTML5
 - CSS3
@@ -17,7 +17,7 @@ O jogador controla um carro em uma corrida infinita, devendo ultrapassar advers�
 1. **Clone o repositório:**
 
     ```bash
-    git clone https://github.com/seu-usuario/racing-game-js.git
+    git clone https://github.com/evecleison/racing-game-js.git
     ```
 
 2. **Localize o arquivo index.html e acesse pasta do seu projeto**
@@ -26,13 +26,13 @@ O jogador controla um carro em uma corrida infinita, devendo ultrapassar advers�
 
     Existem várias formas de abrir o arquivo index.html no navegador, basta implementar uma delas:
 
-    **- Clique duplo:** Simplesmente dê um clique duplo sobre o arquivo index.html para abri-lo no navegador padrão do sistema.
+- **Clique duplo:** Simplesmente dê um clique duplo sobre o arquivo index.html para abri-lo no navegador padrão do sistema.
 
-    **- Menu de contexto:** Clique com o botão direito do mouse sobre o arquivo index.html e escolha a opção de abrir com o navegador de sua preferência.
+- **Menu de contexto:** Clique com o botão direito do mouse sobre o arquivo index.html e escolha a opção de abrir com o navegador de sua preferência.
 
-    **- Extensão Live Server (VS Code):** Use uma extensão como o Live Server no Visual Studio Code para executar o arquivo localmente e visualizar o jogo em tempo real.
+- **Extensão Live Server (VS Code):** Use uma extensão como o Live Server no Visual Studio Code para executar o arquivo localmente e visualizar o jogo em tempo real.
 
-    **- Linha de comando/Terminal:** Você também pode abrir o arquivo diretamente no navegador através do terminal ou linha de comando, usando o caminho adequado para o arquivo.
+- **Linha de comando/Terminal:** Você também pode abrir o arquivo diretamente no navegador através do terminal ou linha de comando, usando o caminho adequado para o arquivo.
 
 ## 🕹️ Funcionalidades
 
@@ -67,7 +67,7 @@ O jogador controla um carro em uma corrida infinita, devendo ultrapassar advers�
 11. Tela final exibe a pontuação e número de abastecimentos realizados.
 
 ## 📸 Créditos
-    - Imagens dos carros obtidas em [Freepik](https://www.freepik.com)
+- Imagens dos carros obtidas em [Freepik](https://www.freepik.com)
 
 ## 👥 Autores
 - Evecleison Albuquerque do Nascimento
