@@ -70,7 +70,6 @@ O jogador controla um carro em uma corrida infinita, devendo ultrapassar adversÃ
     - Imagens dos carros obtidas em [Freepik](https://www.freepik.com)
 
 ## ðŸ‘¥ Autores
-[Evecleison Albuquerque do Nascimento]
+- Evecleison Albuquerque do Nascimento
 
-[Gutemberg]
-
+- Gutemberg
