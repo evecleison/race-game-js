@@ -1,0 +1,202 @@
+/* ESTILOS GERAIS: */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 8px;
+    color: #4CAF50;
+    text-align: center;
+    font-size: 22px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* ELEMENTOS INICIAIS DE DESIGN DO JOGO: */
+
+#conteiner {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 0;
+    border: 1px solid #000;
+    overflow: hidden;
+    z-index: -1;
+    background-color: lightblue;
+}
+
+#pontuacao {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#valor-pontuacao {
+    font-weight: bold;
+}
+
+#barra-combustivel {
+    width: 100%;
+    height: 10px;
+    background-color: #f00;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Polígonos do terreno - pista, borda da pista e grama */
+.poligono {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* MENU INICIAL DO JOGO: */
+
+button {
+    width: 125px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #FFB73D;
+    border-radius: 5px;
+}
+
+#cenarios {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#jogar {
+    background-color: #4CAF50;
+}
+
+/* CARACTERIZAÇÃO DOS CENÁRIOS */
+
+.estrela {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 5px white;
+    animation: brilhar 2s infinite alternate;
+    z-index: -2;
+}
+
+@keyframes brilhar {
+    0% { opacity: 0.3; transform: scale(1); }
+    100% { opacity: 1; transform: scale(1.3); }
+}
+
+.floco-neve {
+    position: absolute;
+    top: -10px;
+    background-color: white;
+    border-radius: 50%;
+    pointer-events: none;
+    animation-name: cair;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cair {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg);
+    }
+}
+
+/* ELEMENTOS DA PISTA DE CORRIDA */
+
+#carro-jogador {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    transform: translateX(-50%);
+    background-image: url('/images/carro-azul.png');
+    background-size: 100% 100%;
+}
+
+.elemento {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+/* Carro adversário */
+.elemento1 {
+    background-image: url('/images/carro-verde.png');
+    background-size: 100% 100%;
+    background-color: transparent;
+}
+
+/* Posto de combustível */
+.elemento2 {
+    background-image: url('/images/combustivel.png');
+    background-size: 100% 100%;
+    background-color: transparent;
+}
+
+/* Obstáculo - barreira */
+.elemento3 {
+    background-image: url('/images/obstaculo.png');
+    background-size: 100% 100%;
+    background-color: transparent;
+}
+
+/* Nitro */
+.elemento4 {
+    background-image: url('/images/nitro.webp');
+    background-size: 100% 100%;
+    background-color: transparent;
+}
+
+/* TELA DO FINAL DO JOGO */
+
+#tela-final{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 3;
+}
+
+#tela-final h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#tela-final p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#tela-final button {
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    border: 1px solid black;
+}
