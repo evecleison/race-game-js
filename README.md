@@ -11,8 +11,6 @@ O jogador controla um carro em uma corrida infinita, devendo ultrapassar advers�
 - HTML5
 - CSS3
 - JavaScript (puro, sem bibliotecas)
-- Imagens dos carros obtidas em [Freepik](https://www.freepik.com)
-
 
 ## 🚀 Como instalar e executar localmente
 
@@ -26,7 +24,7 @@ O jogador controla um carro em uma corrida infinita, devendo ultrapassar advers�
 
 3. **Abra o arquivo index.html no navegador:**
 
-    Existem várias formas de abrir o arquivo index.html no navegador:
+    Existem várias formas de abrir o arquivo index.html no navegador, basta implementar uma delas:
 
     **- Clique duplo:** Simplesmente dê um clique duplo sobre o arquivo index.html para abri-lo no navegador padrão do sistema.
 
@@ -35,4 +33,44 @@ O jogador controla um carro em uma corrida infinita, devendo ultrapassar advers�
     **- Extensão Live Server (VS Code):** Use uma extensão como o Live Server no Visual Studio Code para executar o arquivo localmente e visualizar o jogo em tempo real.
 
     **- Linha de comando/Terminal:** Você também pode abrir o arquivo diretamente no navegador através do terminal ou linha de comando, usando o caminho adequado para o arquivo.
+
+## 🕹️ Funcionalidades
+
+1. Corrida infinita com sistema de pontuação baseado em ultrapassagens.
+
+2. Elementos aleatórios na pista:
+
+    🚘 Carros adversários
+
+    ⛽ Postos de combustível
+
+    🚧 Barreiras
+
+    ⚡ Nitros
+
+3. Colisão com carros adversários encerra o jogo.
+
+4. Barreiras causam perda de pontos.
+
+5. O combustível do carro reduz a cada segundo. Se o combustível do carro acabar, o jogo termina.
+
+6. Postos de combustível permitem reabastecimento.
+
+7. Nitros aumentam velocidade e concedem pontos extras.
+
+8. Sair da pista reduz a velocidade em 15% por segundo (até um limite).
+
+9. Há quatro cenários disponíveis no menu inicial: dia, tarde, noite, neve.
+
+10. Mudança automática de cenário a cada 30 segundos na ordem: dia → tarde → noite → neve → dia...
+
+11. Tela final exibe a pontuação e número de abastecimentos realizados.
+
+## 📸 Créditos
+    - Imagens dos carros obtidas em [Freepik](https://www.freepik.com)
+
+## 👥 Autores
+[Evecleison Albuquerque do Nascimento]
+
+[Gutemberg]
 
