@@ -20,6 +20,7 @@ O jogador controla um carro em uma corrida infinita, devendo ultrapassar advers√
 
 ```bash
 git clone https://github.com/seu-usuario/racing-game-js.git
+```
 
 2. **Localize o arquivo index.html e acesse pasta do seu projeto**
 
