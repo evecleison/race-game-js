@@ -16,8 +16,9 @@ O jogador controla um carro em uma corrida infinita, devendo ultrapassar advers�
 
 1. **Clone o repositório:**
 
-    ```bash
-    git clone https://github.com/evecleison/racing-game-js.git
+    Use o Git para clonar este repositório em sua máquina local.
+    ```shell
+    git clone https://github.com/evecleison/Sistema_solar.git
     ```
 
 2. **Localize o arquivo index.html e acesse pasta do seu projeto**
