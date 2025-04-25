@@ -55,16 +55,6 @@ This project is a racing game developed as an assignment for the Web Technologie
 
 3. **Open the `index.html` file in your browser:**
 
-    There are several ways to open the `index.html` file in your browser. Choose one of the following:
-
-- **Double-click:** Simply double-click the `index.html` file to open it in your system's default browser.
-
-- **Context menu:** Right-click on the `index.html` file and choose to open it with your preferred browser.
-
-- **Live Server extension (VS Code):** Use an extension like Live Server in Visual Studio Code to run the file locally and see the game in real time.
-
-- **Command line/Terminal:** You can also open the file directly from the terminal or command line, using the appropriate path to the file.
-
 ## 🛠 Technologies Used
 
 - HTML5  
