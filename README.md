@@ -55,17 +55,6 @@ Este projeto é um jogo de corrida desenvolvido como trabalho da disciplina de T
 
 3. **Abra o arquivo index.html no navegador:**
 
-    Existem várias formas de abrir o arquivo index.html no navegador, basta implementar uma delas:
-
-- **Clique duplo:** Simplesmente dê um clique duplo sobre o arquivo index.html para abri-lo no navegador padrão do sistema.
-
-- **Menu de contexto:** Clique com o botão direito do mouse sobre o arquivo index.html e escolha a opção de abrir com o navegador de sua preferência.
-
-- **Extensão Live Server (VS Code):** Use uma extensão como o Live Server no Visual Studio Code para executar o arquivo localmente e visualizar o jogo em tempo real.
-
-- **Linha de comando/Terminal:** Você também pode abrir o arquivo diretamente no navegador através do terminal ou linha de comando, usando o caminho adequado para o arquivo.
-
-
 ## 🛠 Tecnologias Utilizadas 
 
 - HTML5
