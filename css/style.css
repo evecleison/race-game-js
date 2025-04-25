@@ -129,7 +129,7 @@ button {
     width: 50px;
     height: 50px;
     transform: translateX(-50%);
-    background-image: url('/images/carro-azul.png');
+    background-image: url('../images/carro-azul.png');
     background-size: 100% 100%;
 }
 
@@ -141,28 +141,28 @@ button {
 
 /* Carro adversário */
 .elemento1 {
-    background-image: url('/images/carro-verde.png');
+    background-image: url('../images/carro-verde.png');
     background-size: 100% 100%;
     background-color: transparent;
 }
 
 /* Posto de combustível */
 .elemento2 {
-    background-image: url('/images/combustivel.png');
+    background-image: url('../images/combustivel.png');
     background-size: 100% 100%;
     background-color: transparent;
 }
 
 /* Obstáculo - barreira */
 .elemento3 {
-    background-image: url('/images/obstaculo.png');
+    background-image: url('../images/obstaculo.png');
     background-size: 100% 100%;
     background-color: transparent;
 }
 
 /* Nitro */
 .elemento4 {
-    background-image: url('/images/nitro.webp');
+    background-image: url('../images/nitro.webp');
     background-size: 100% 100%;
     background-color: transparent;
 }
